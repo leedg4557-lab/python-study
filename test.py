@@ -83,7 +83,52 @@
 # 저는 쉴때 {hobby_1}와 {hobby_2}를 좋아합니다.""")
 
 #12월 31일 수업 실습1
-money = 300000
+# money = 300000
 
-current_money = (money - 80000 - (9000*5) + 120000) + ((money - 80000 - (9000*5) + 120000) * 0.2) -(((money - 80000 - (9000*5) + 120000) + ((money - 80000 - (9000*5) + 120000) * 0.2))/3)
-print(f'현재 남은 금액은 {int(current_money)}원 입니다.')
+# current_money = (money - 80000 - (9000*5) + 120000) + ((money - 80000 - (9000*5) + 120000) * 0.2) -(((money - 80000 - (9000*5) + 120000) + ((money - 80000 - (9000*5) + 120000) * 0.2))/3)
+# print(f'현재 남은 금액은 {int(current_money)}원 입니다.')
+
+#실습2
+# intro = '둠칫'
+# drop = '두둠칫'
+# print(intro + drop *2 + intro)
+
+# name = input('이름을 입력해 주세요:')
+# score = int(input("정수를 입력하세요:"))
+# print(f'이름은 {name}입니다.')
+# print(f'입력한 정수는 {score}입니다.')
+
+# a = int(input('첫 번째 값:'))
+# b = int(input('두 번째 값:'))
+# print(a + b)
+
+
+# fruit = '사과 참외 수박'.split() #띄워쓰기를 기준으로 리스트로 만들어준다
+# print(fruit)
+
+
+# name = input('이름을 입력하세요:')
+# age = int(input('나이를 입력하세요:'))
+# print(f'안녕하세요. 저는 {name}이고, {age}살입니다.')
+
+# x = int(input("가로 길이를 입력하세요:"))
+# y = int(input('세로 길이를 입력하세요:'))
+# print(f'넓이: {x*y}')
+# print(f'둘레: {x*2 +y*2}')
+
+# x = input('네 자릿수 정수를 입력하세요:')
+# print(f'천의 자리: {x[0]}')
+# print(f'백의 자리: {x[1]}')
+# print(f'십의 자리: {x[2]}')
+# print(f'일의 자리: {x[3]}')
+
+
+ymd = input('년, 월, 일을 입력해주세요:')
+hms = input('시, 분, 초를 입력해주세요:')
+y = ymd.split('.')[0]
+m = ymd.split('.')[1]
+d = ymd.split('.')[2]
+h = hms.split(':')[0]
+m = hms.split(':')[1]
+s = hms.split(':')[2]
+print(f'RE3의 개강일은 {y}년 {m}월 {d}일\n시작 시간은 {h}시 {m}분 {s}초입니다.')
