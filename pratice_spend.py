@@ -58,3 +58,4 @@ re_sort_logs = sorted(logs, reverse =True)
 print(f'''오름차순: {sort_logs}
 내림차순: {re_sort_logs}
 원본: {logs}''')
+print('안녕하세요')
