@@ -1,4 +1,4 @@
-    log = []
+    logs = []
     x = input('입력하세요:')
     
     if x == 'END':
